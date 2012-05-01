@@ -1,0 +1,504 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE794BE9145426AD006B53A4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE794BE8145426AD006B53A4 /* UIKit.framework */; };
+		CE794BEB145426AD006B53A4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE794BEA145426AD006B53A4 /* Foundation.framework */; };
+		CE794BED145426AD006B53A4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE794BEC145426AD006B53A4 /* CoreGraphics.framework */; };
+		CE794BF3145426AD006B53A4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CE794BF1145426AD006B53A4 /* InfoPlist.strings */; };
+		CE794BF5145426AD006B53A4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE794BF4145426AD006B53A4 /* main.m */; };
+		CE794BF9145426AD006B53A4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE794BF8145426AD006B53A4 /* AppDelegate.m */; };
+		CE794BFC145426AD006B53A4 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE794BFA145426AD006B53A4 /* MainStoryboard.storyboard */; };
+		CE794BFF145426AD006B53A4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE794BFE145426AD006B53A4 /* ViewController.m */; };
+		CE794C07145426AD006B53A4 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE794C06145426AD006B53A4 /* SenTestingKit.framework */; };
+		CE794C08145426AD006B53A4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE794BE8145426AD006B53A4 /* UIKit.framework */; };
+		CE794C09145426AD006B53A4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE794BEA145426AD006B53A4 /* Foundation.framework */; };
+		CE794C11145426AD006B53A4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CE794C0F145426AD006B53A4 /* InfoPlist.strings */; };
+		CE794C14145426AD006B53A4 /* AudioPlayerForiPadTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE794C13145426AD006B53A4 /* AudioPlayerForiPadTests.m */; };
+		CE794C29145426E5006B53A4 /* AudioPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = CE794C20145426E5006B53A4 /* AudioPlayer.m */; };
+		CE794C2A145426E5006B53A4 /* blue_long_bar.png in Resources */ = {isa = PBXBuildFile; fileRef = CE794C21145426E5006B53A4 /* blue_long_bar.png */; };
+		CE794C2B145426E5006B53A4 /* green_left.png in Resources */ = {isa = PBXBuildFile; fileRef = CE794C22145426E5006B53A4 /* green_left.png */; };
+		CE794C2C145426E5006B53A4 /* green_pause.png in Resources */ = {isa = PBXBuildFile; fileRef = CE794C23145426E5006B53A4 /* green_pause.png */; };
+		CE794C2D145426E5006B53A4 /* green_play.png in Resources */ = {isa = PBXBuildFile; fileRef = CE794C24145426E5006B53A4 /* green_play.png */; };
+		CE794C2E145426E5006B53A4 /* green_repeated.png in Resources */ = {isa = PBXBuildFile; fileRef = CE794C25145426E5006B53A4 /* green_repeated.png */; };
+		CE794C2F145426E5006B53A4 /* green_right.png in Resources */ = {isa = PBXBuildFile; fileRef = CE794C26145426E5006B53A4 /* green_right.png */; };
+		CE794C30145426E5006B53A4 /* tune.png in Resources */ = {isa = PBXBuildFile; fileRef = CE794C27145426E5006B53A4 /* tune.png */; };
+		CE794C3214542876006B53A4 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE794C3114542876006B53A4 /* AVFoundation.framework */; };
+		CE794C3414542890006B53A4 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE794C3314542890006B53A4 /* AudioToolbox.framework */; };
+		CE794C36145428AA006B53A4 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE794C35145428AA006B53A4 /* CoreMedia.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CE794C0A145426AD006B53A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE794BDB145426AC006B53A4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE794BE3145426AD006B53A4;
+			remoteInfo = AudioPlayerForiPad;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CE794BE4145426AD006B53A4 /* AudioPlayerForiPad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AudioPlayerForiPad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE794BE8145426AD006B53A4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CE794BEA145426AD006B53A4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CE794BEC145426AD006B53A4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CE794BF0145426AD006B53A4 /* AudioPlayerForiPad-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AudioPlayerForiPad-Info.plist"; sourceTree = "<group>"; };
+		CE794BF2145426AD006B53A4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CE794BF4145426AD006B53A4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CE794BF6145426AD006B53A4 /* AudioPlayerForiPad-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AudioPlayerForiPad-Prefix.pch"; sourceTree = "<group>"; };
+		CE794BF7145426AD006B53A4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CE794BF8145426AD006B53A4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CE794BFB145426AD006B53A4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		CE794BFD145426AD006B53A4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CE794BFE145426AD006B53A4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CE794C05145426AD006B53A4 /* AudioPlayerForiPadTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AudioPlayerForiPadTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE794C06145426AD006B53A4 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		CE794C0E145426AD006B53A4 /* AudioPlayerForiPadTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AudioPlayerForiPadTests-Info.plist"; sourceTree = "<group>"; };
+		CE794C10145426AD006B53A4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CE794C12145426AD006B53A4 /* AudioPlayerForiPadTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AudioPlayerForiPadTests.h; sourceTree = "<group>"; };
+		CE794C13145426AD006B53A4 /* AudioPlayerForiPadTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AudioPlayerForiPadTests.m; sourceTree = "<group>"; };
+		CE794C1F145426E5006B53A4 /* AudioPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioPlayer.h; sourceTree = "<group>"; };
+		CE794C20145426E5006B53A4 /* AudioPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioPlayer.m; sourceTree = "<group>"; };
+		CE794C21145426E5006B53A4 /* blue_long_bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blue_long_bar.png; sourceTree = "<group>"; };
+		CE794C22145426E5006B53A4 /* green_left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = green_left.png; sourceTree = "<group>"; };
+		CE794C23145426E5006B53A4 /* green_pause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = green_pause.png; sourceTree = "<group>"; };
+		CE794C24145426E5006B53A4 /* green_play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = green_play.png; sourceTree = "<group>"; };
+		CE794C25145426E5006B53A4 /* green_repeated.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = green_repeated.png; sourceTree = "<group>"; };
+		CE794C26145426E5006B53A4 /* green_right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = green_right.png; sourceTree = "<group>"; };
+		CE794C27145426E5006B53A4 /* tune.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tune.png; sourceTree = "<group>"; };
+		CE794C3114542876006B53A4 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		CE794C3314542890006B53A4 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		CE794C35145428AA006B53A4 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE794BE1145426AD006B53A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE794BE9145426AD006B53A4 /* UIKit.framework in Frameworks */,
+				CE794BEB145426AD006B53A4 /* Foundation.framework in Frameworks */,
+				CE794BED145426AD006B53A4 /* CoreGraphics.framework in Frameworks */,
+				CE794C3214542876006B53A4 /* AVFoundation.framework in Frameworks */,
+				CE794C3414542890006B53A4 /* AudioToolbox.framework in Frameworks */,
+				CE794C36145428AA006B53A4 /* CoreMedia.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE794C01145426AD006B53A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE794C07145426AD006B53A4 /* SenTestingKit.framework in Frameworks */,
+				CE794C08145426AD006B53A4 /* UIKit.framework in Frameworks */,
+				CE794C09145426AD006B53A4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE794BD9145426AC006B53A4 = {
+			isa = PBXGroup;
+			children = (
+				CE794C1D145426E5006B53A4 /* iPadAudioPlayer */,
+				CE794BEE145426AD006B53A4 /* AudioPlayerForiPad */,
+				CE794C0C145426AD006B53A4 /* AudioPlayerForiPadTests */,
+				CE794BE7145426AD006B53A4 /* Frameworks */,
+				CE794BE5145426AD006B53A4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE794BE5145426AD006B53A4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE794BE4145426AD006B53A4 /* AudioPlayerForiPad.app */,
+				CE794C05145426AD006B53A4 /* AudioPlayerForiPadTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE794BE7145426AD006B53A4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE794C35145428AA006B53A4 /* CoreMedia.framework */,
+				CE794C3314542890006B53A4 /* AudioToolbox.framework */,
+				CE794C3114542876006B53A4 /* AVFoundation.framework */,
+				CE794BE8145426AD006B53A4 /* UIKit.framework */,
+				CE794BEA145426AD006B53A4 /* Foundation.framework */,
+				CE794BEC145426AD006B53A4 /* CoreGraphics.framework */,
+				CE794C06145426AD006B53A4 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE794BEE145426AD006B53A4 /* AudioPlayerForiPad */ = {
+			isa = PBXGroup;
+			children = (
+				CE794BF7145426AD006B53A4 /* AppDelegate.h */,
+				CE794BF8145426AD006B53A4 /* AppDelegate.m */,
+				CE794BFA145426AD006B53A4 /* MainStoryboard.storyboard */,
+				CE794BFD145426AD006B53A4 /* ViewController.h */,
+				CE794BFE145426AD006B53A4 /* ViewController.m */,
+				CE794BEF145426AD006B53A4 /* Supporting Files */,
+			);
+			path = AudioPlayerForiPad;
+			sourceTree = "<group>";
+		};
+		CE794BEF145426AD006B53A4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE794BF0145426AD006B53A4 /* AudioPlayerForiPad-Info.plist */,
+				CE794BF1145426AD006B53A4 /* InfoPlist.strings */,
+				CE794BF4145426AD006B53A4 /* main.m */,
+				CE794BF6145426AD006B53A4 /* AudioPlayerForiPad-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CE794C0C145426AD006B53A4 /* AudioPlayerForiPadTests */ = {
+			isa = PBXGroup;
+			children = (
+				CE794C12145426AD006B53A4 /* AudioPlayerForiPadTests.h */,
+				CE794C13145426AD006B53A4 /* AudioPlayerForiPadTests.m */,
+				CE794C0D145426AD006B53A4 /* Supporting Files */,
+			);
+			path = AudioPlayerForiPadTests;
+			sourceTree = "<group>";
+		};
+		CE794C0D145426AD006B53A4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE794C0E145426AD006B53A4 /* AudioPlayerForiPadTests-Info.plist */,
+				CE794C0F145426AD006B53A4 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CE794C1D145426E5006B53A4 /* iPadAudioPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				CE794C1F145426E5006B53A4 /* AudioPlayer.h */,
+				CE794C20145426E5006B53A4 /* AudioPlayer.m */,
+				CE794C21145426E5006B53A4 /* blue_long_bar.png */,
+				CE794C22145426E5006B53A4 /* green_left.png */,
+				CE794C23145426E5006B53A4 /* green_pause.png */,
+				CE794C24145426E5006B53A4 /* green_play.png */,
+				CE794C25145426E5006B53A4 /* green_repeated.png */,
+				CE794C26145426E5006B53A4 /* green_right.png */,
+				CE794C27145426E5006B53A4 /* tune.png */,
+			);
+			path = iPadAudioPlayer;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE794BE3145426AD006B53A4 /* AudioPlayerForiPad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE794C17145426AD006B53A4 /* Build configuration list for PBXNativeTarget "AudioPlayerForiPad" */;
+			buildPhases = (
+				CE794BE0145426AD006B53A4 /* Sources */,
+				CE794BE1145426AD006B53A4 /* Frameworks */,
+				CE794BE2145426AD006B53A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AudioPlayerForiPad;
+			productName = AudioPlayerForiPad;
+			productReference = CE794BE4145426AD006B53A4 /* AudioPlayerForiPad.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CE794C04145426AD006B53A4 /* AudioPlayerForiPadTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE794C1A145426AD006B53A4 /* Build configuration list for PBXNativeTarget "AudioPlayerForiPadTests" */;
+			buildPhases = (
+				CE794C00145426AD006B53A4 /* Sources */,
+				CE794C01145426AD006B53A4 /* Frameworks */,
+				CE794C02145426AD006B53A4 /* Resources */,
+				CE794C03145426AD006B53A4 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE794C0B145426AD006B53A4 /* PBXTargetDependency */,
+			);
+			name = AudioPlayerForiPadTests;
+			productName = AudioPlayerForiPadTests;
+			productReference = CE794C05145426AD006B53A4 /* AudioPlayerForiPadTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE794BDB145426AC006B53A4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = CE794BDE145426AC006B53A4 /* Build configuration list for PBXProject "AudioPlayerForiPad" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CE794BD9145426AC006B53A4;
+			productRefGroup = CE794BE5145426AD006B53A4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE794BE3145426AD006B53A4 /* AudioPlayerForiPad */,
+				CE794C04145426AD006B53A4 /* AudioPlayerForiPadTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE794BE2145426AD006B53A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE794BF3145426AD006B53A4 /* InfoPlist.strings in Resources */,
+				CE794BFC145426AD006B53A4 /* MainStoryboard.storyboard in Resources */,
+				CE794C2A145426E5006B53A4 /* blue_long_bar.png in Resources */,
+				CE794C2B145426E5006B53A4 /* green_left.png in Resources */,
+				CE794C2C145426E5006B53A4 /* green_pause.png in Resources */,
+				CE794C2D145426E5006B53A4 /* green_play.png in Resources */,
+				CE794C2E145426E5006B53A4 /* green_repeated.png in Resources */,
+				CE794C2F145426E5006B53A4 /* green_right.png in Resources */,
+				CE794C30145426E5006B53A4 /* tune.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE794C02145426AD006B53A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE794C11145426AD006B53A4 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CE794C03145426AD006B53A4 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE794BE0145426AD006B53A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE794BF5145426AD006B53A4 /* main.m in Sources */,
+				CE794BF9145426AD006B53A4 /* AppDelegate.m in Sources */,
+				CE794BFF145426AD006B53A4 /* ViewController.m in Sources */,
+				CE794C29145426E5006B53A4 /* AudioPlayer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE794C00145426AD006B53A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE794C14145426AD006B53A4 /* AudioPlayerForiPadTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CE794C0B145426AD006B53A4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE794BE3145426AD006B53A4 /* AudioPlayerForiPad */;
+			targetProxy = CE794C0A145426AD006B53A4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CE794BF1145426AD006B53A4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE794BF2145426AD006B53A4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CE794BFA145426AD006B53A4 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE794BFB145426AD006B53A4 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		CE794C0F145426AD006B53A4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE794C10145426AD006B53A4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE794C15145426AD006B53A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		CE794C16145426AD006B53A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE794C18145426AD006B53A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AudioPlayerForiPad/AudioPlayerForiPad-Prefix.pch";
+				INFOPLIST_FILE = "AudioPlayerForiPad/AudioPlayerForiPad-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CE794C19145426AD006B53A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AudioPlayerForiPad/AudioPlayerForiPad-Prefix.pch";
+				INFOPLIST_FILE = "AudioPlayerForiPad/AudioPlayerForiPad-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CE794C1B145426AD006B53A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AudioPlayerForiPad.app/AudioPlayerForiPad";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AudioPlayerForiPad/AudioPlayerForiPad-Prefix.pch";
+				INFOPLIST_FILE = "AudioPlayerForiPadTests/AudioPlayerForiPadTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		CE794C1C145426AD006B53A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AudioPlayerForiPad.app/AudioPlayerForiPad";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AudioPlayerForiPad/AudioPlayerForiPad-Prefix.pch";
+				INFOPLIST_FILE = "AudioPlayerForiPadTests/AudioPlayerForiPadTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE794BDE145426AC006B53A4 /* Build configuration list for PBXProject "AudioPlayerForiPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE794C15145426AD006B53A4 /* Debug */,
+				CE794C16145426AD006B53A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE794C17145426AD006B53A4 /* Build configuration list for PBXNativeTarget "AudioPlayerForiPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE794C18145426AD006B53A4 /* Debug */,
+				CE794C19145426AD006B53A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE794C1A145426AD006B53A4 /* Build configuration list for PBXNativeTarget "AudioPlayerForiPadTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE794C1B145426AD006B53A4 /* Debug */,
+				CE794C1C145426AD006B53A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE794BDB145426AC006B53A4 /* Project object */;
+}
